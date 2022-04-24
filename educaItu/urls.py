@@ -15,7 +15,22 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from atividades.views import home, sign_in, sair, submit_login, portugues, matematica, historia, geografia, ciencias, ingles, jogos, videos, atividades
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('home/', home),
+    path('login/', sign_in),
+    path('logout/', sair),
+    path('login/submit', submit_login),
+    path('portugues/', portugues), 
+    path('matematica/', matematica), 
+    path('historia/', historia), 
+    path('geografia/', geografia), 
+    path('ciencias/', ciencias), 
+    path('ingles/', ingles), 
+    path('jogos/', jogos), 
+    path('videos/', videos), 
+    path('atividades/', atividades), 
 ]

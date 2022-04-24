@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem{
+    width: 1000px;
+    height: 300px;    
+}
+
+.titulo-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label{
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 16px;    
+}
+
+.logout a{
+    margin-left: 18px;
+    font-size: 12px; 
+}
