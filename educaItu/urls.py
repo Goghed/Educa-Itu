@@ -21,9 +21,9 @@ from atividades.views import home, sign_in, sair, submit_login, portugues, matem
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', home),
-    path('login/', sign_in),
+    path('', sign_in),
     path('logout/', sair),
-    path('login/submit', submit_login),
+    path('submit', submit_login),
     path('portugues/', portugues), 
     path('matematica/', matematica), 
     path('historia/', historia), 
