@@ -1,0 +1,36 @@
+{% include 'partials/model-header.html' %}      
+
+    <div class="titulo-container mt-3">
+        <h1 class="titulo">Jogos</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="anos navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/jogos/primeiroAno/">1º ano</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/jogos/segundoAno">2º ano</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/jogos/terceiroAno">3º ano</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/jogos/quartoAno">4º ano</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/jogos/quintoAno">5º ano</a>
+                    </li>                
+                </ul>
+                <form class="form d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="logout btn btn-outline-dark md-2" type="submit"><i class="fas fa-search"></i></button>                           
+                </form>            
+            </div>
+        </div>
+    </nav>
+    
+ 
+{% include 'partials/model-footer.html' %}
