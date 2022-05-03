@@ -25,14 +25,14 @@ body{
     align-items: center;
 }
 
-.imagem{
-<<<<<<< HEAD
+.carousel-inner img{
+    width: 100%;
+    height: 100%;   
+}
+
+.imagem img{
     width: 100%;
     height: 100%;    
-=======
-    width: 1000px;
-    height: 450px;    
->>>>>>> d749c1e52ee200760f443fb024714134d7cf38cc
 }
 
 .titulo-container{
